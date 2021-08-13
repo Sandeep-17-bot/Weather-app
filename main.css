@@ -95,7 +95,7 @@ h1 {
 
     .section {
         backdrop-filter: blur(50px);
-        background-color: rgba(255, 0, 0, 0.048);
+        background-color: rgba(255, 0, 0, 0);
     }
 
     #input{
