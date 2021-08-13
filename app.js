@@ -4,7 +4,6 @@ const temp = document.getElementById('temp')
 const wind = document.getElementById('wind')
 const pressure = document.getElementById('pressure')
 const humidity = document.getElementById('humidity')
-const windGusts = document.getElementById('wind-gusts')
 
 
 
@@ -25,8 +24,6 @@ function clickHandler() {
             document.getElementById('description').innerHTML = result.weather[0].description
 
             wind.innerHTML =  result.wind.speed + " meter/sec"
-
-            windGusts.innerHTML = result.wind.gust + "meter/sec"
 
             pressure.innerHTML = result.main.pressure + " millibar(mb)"
 
