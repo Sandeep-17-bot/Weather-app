@@ -16,7 +16,8 @@ function clickHandler() {
 
     fetch(URL + location + '&units=metric&exclude=hourly,daily&appid=' + api_key)
         .then(res => res.json())
-        .then(data => {
+        .then(data => 
+            {
             var result = data
 
             temp.innerHTML =  Math.ceil(result.main.temp) + "<sup>0</sup>C"
