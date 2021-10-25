@@ -74,7 +74,7 @@ h1:hover {
 
 #btn:hover {
     box-shadow: 1px 1px 15px 0 #5e1467;
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
 #btn:active {
